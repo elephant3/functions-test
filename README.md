@@ -1,5 +1,5 @@
 # functions-test
-boo
+
 ## `/test`
 
 - Return `Hello Wordl`
