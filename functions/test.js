@@ -3,5 +3,5 @@ module.exports = (req, res) => {
   console.log(
     "This logs should be printed in dev and stored somewhere in prod"
   );
-  res.status(200).send(`Helll0 ${name}!`);
+  res.status(200).send(`HAlll0 ${name}!`);
 };
