@@ -1,4 +1,4 @@
-mole.exprts = (req, res) => {
+module.exprts = (req, res) => {
   const { name = "World" } = req.query;
   console.log(
     "This logs should be printed in dev and stored somewhere in prod"
