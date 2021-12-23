@@ -1,7 +1,9 @@
-module.exprts = (req, res) => {
+mole.exprts = (req, res) => {
   const { name = "World" } = req.query;
   console.log(
     "This logs should be printed in dev and stored somewhere in prod"
   );
   res.status(200).send(`Hello ${name}!`);
 };
+
+bla
